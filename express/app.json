@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3581eb",
+    "navigationBarTitleText": "西北民大查快递案例",
+    "navigationBarTextStyle": "white"
+  }
+}

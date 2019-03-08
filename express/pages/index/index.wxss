@@ -1,0 +1,70 @@
+/**index.wxss**/
+page{
+  background-color: #F8F8F8;
+}
+.express{
+  width: 100%;
+  height: 500rpx;
+  background-color: #3581eb;
+}
+.num{
+  width: 88%;
+  margin:150rpx auto 0 auto;
+  height:80rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  padding-left: 20rpx
+}
+.pc{
+  font-size: 30rpx;
+}
+.query{
+  margin: 0 auto;
+}
+.list{
+  width: 92%;
+  margin: 0 auto 50rpx auto; 
+  
+}
+.item{
+   padding-top: 30rpx;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10rpx
+}
+.location{
+  font-size: 32rpx;
+  color: #838383;
+}
+.time{
+  font-size: 30rpx;
+  color:  #3581eb;
+}
+.context{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+}
+.buttom{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 30rpx;
+  bottom: 10px;
+  font-size: 20rpx;
+  color: #a1a1a1;
+}
+.select{
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 150rpx;
+  color: white;
+}
+.query{
+  margin: 50rpx auto;
+  width: 30%;
+  
+}

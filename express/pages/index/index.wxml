@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<!-- 主体容器开始 -->
+<view class="container">
+<!-- 文本框和选择器开始 -->
+  <view class='express'>
+    <input bindblur='getNum' placeholder-class="pc" class='num' type='text' placeholder='请输入快递单号'></input>
+    <view class='query'>
+      <button bindtap='getOrderInfo' type='primary'>点击查询</button>
+    </view>
+    <!-- <picker class='select' mode = selector value="" range="{{list}}" bindchange='getCom'>
+      {{objectArray[index].name}}
+    </picker> -->
+  </view> 
+  <!-- 物流信息列表开始 -->
+  <view class='list'>
+  <!-- 循环输出物流信息开始 -->
+    <view class='item' wx:for="{{ary}}">
+      <view>
+        <icon type="success" size="12"/>
+      </view>
+      <view class='context'>
+        <text class='location'>{{item.AcceptStation}}</text>
+        <text class='time'>{{item.AcceptTime}}</text>
+      </view>
+    </view>
+    <!-- 循环输出物流信息结束 -->
+  </view>
+   <!-- 物流信息列表结束 -->
+  <!-- 底部水印开始 -->
+  <view class='buttom'>
+      <text>老兵出品，必属精品</text>
+      <text>www.itlaobing.com</text>
+  </view>
+  <!-- 底部水印结束 -->
+</view>
+<!-- 主体容器结束 -->
